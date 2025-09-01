@@ -1,0 +1,227 @@
+before we start so you can see Microsoft Windows [Version 10.0.19045.6216]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\adico>type auth\.env
+The system cannot find the path specified.
+
+C:\Users\adico>cd /d C:\Users\adico\Desktop\deepseek-ai-coder
+
+C:\Users\adico\Desktop\deepseek-ai-coder>notepad auth\.env
+
+C:\Users\adico\Desktop\deepseek-ai-coder>notepad auth\.env
+
+C:\Users\adico\Desktop\deepseek-ai-coder>notepad super_agent.py
+
+C:\Users\adico\Desktop\deepseek-ai-coder>notepad super_agent.py
+
+C:\Users\adico\Desktop\deepseek-ai-coder>python super_agent.py "Create a test file on GitHub with some sample content"
+📂 Loaded memory with 0 past commands
+🤖 SUPER AI AGENT ACTIVATED!
+📍 Now with GitHub integration and credential support
+💡 Try: 'create a python script' or 'create file on github'
+🔧 Available credentials: Gemini, GitHub
+==================================================
+Traceback (most recent call last):
+  File "C:\Users\adico\Desktop\deepseek-ai-coder\super_agent.py", line 283, in <module>
+    main()
+  File "C:\Users\adico\Desktop\deepseek-ai-coder\super_agent.py", line 258, in main
+    status = agent.get_status()
+             ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\adico\Desktop\deepseek-ai-coder\super_agent.py", line 239, in get_status
+    "github_operations": len(self.memory["github_operations"]),
+                             ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+KeyError: 'github_operations'
+
+C:\Users\adico\Desktop\deepseek-ai-coder>python super_agent.py "Create a local python script that prints hello world"
+📂 Loaded memory with 0 past commands
+🤖 SUPER AI AGENT ACTIVATED!
+📍 Now with GitHub integration and credential support
+💡 Try: 'create a python script' or 'create file on github'
+🔧 Available credentials: Gemini, GitHub
+==================================================
+Traceback (most recent call last):
+  File "C:\Users\adico\Desktop\deepseek-ai-coder\super_agent.py", line 283, in <module>
+    main()
+  File "C:\Users\adico\Desktop\deepseek-ai-coder\super_agent.py", line 258, in main
+    status = agent.get_status()
+             ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\adico\Desktop\deepseek-ai-coder\super_agent.py", line 239, in get_status
+    "github_operations": len(self.memory["github_operations"]),
+                             ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+KeyError: 'github_operations'
+
+C:\Users\adico\Desktop\deepseek-ai-coder>notepad continuous_super_agent.py
+
+C:\Users\adico\Desktop\deepseek-ai-coder>notepad continuous_super_agent.py
+
+C:\Users\adico\Desktop\deepseek-ai-coder>notepad continuous_super_agent.py
+
+C:\Users\adico\Desktop\deepseek-ai-coder>python continuous_super_agent.py
+📂 Loaded memory with 0 past commands
+🔄 SUPER CONTINUOUS MODE ACTIVATED!
+📍 Now with GitHub integration and credential support
+💡 Type 'exit' to quit, 'status' for report
+🔧 Available: Local files, Apps, GitHub operations
+==================================================
+Traceback (most recent call last):
+  File "C:\Users\adico\Desktop\deepseek-ai-coder\continuous_super_agent.py", line 44, in <module>
+    main()
+  File "C:\Users\adico\Desktop\deepseek-ai-coder\continuous_super_agent.py", line 14, in main
+    status = agent.get_status()
+             ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\adico\Desktop\deepseek-ai-coder\super_agent.py", line 239, in get_status
+    "github_operations": len(self.memory["github_operations"]),
+                             ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+KeyError: 'github_operations'
+
+C:\Users\adico\Desktop\deepseek-ai-coder>notepad enhanced_agent_v2.py
+
+C:\Users\adico\Desktop\deepseek-ai-coder>notepad enhanced_agent_v2.py
+
+C:\Users\adico\Desktop\deepseek-ai-coder>python enhanced_agent_v2.py "Create a Python script that says hello world"
+📂 Loaded memory with 0 past commands
+🤖 ENHANCED AI AGENT v2 ACTIVATED!
+📍 Improved parsing and error handling
+💡 Try: 'create a python script' or 'open notepad'
+==================================================
+Executing: Create a Python script that says hello world
+
+🧠 Thinking...
+🔍 Parsing response...
+🤖 Raw AI response:
+Error: 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+
+
+✅ Result: UNKNOWN: Could not understand the command. Intent: unknown
+
+📊 Status: 0 commands executed, 0 files created
+
+C:\Users\adico\Desktop\deepseek-ai-coder>python -c "import google.generativeai as genaifrom dotenv import load_dotenvimport osload_dotenv(dotenv_path='auth/.env')genai.configure(api_key=os.getenv('GEMINI_API_KEY'))model = genai.GenerativeModel('gemini-pro')response = model.generate_content('Hello, can you hear me?')print('Gemini response:', response.text)"
+  File "<string>", line 1
+    import google.generativeai as genaifrom dotenv import load_dotenvimport osload_dotenv(dotenv_path='auth/.env')genai.configure(api_key=os.getenv('GEMINI_API_KEY'))model = genai.GenerativeModel('gemini-pro')response = model.generate_content('Hello, can you hear me?')print('Gemini response:', response.text)
+                                            ^^^^^^
+SyntaxError: invalid syntax
+
+C:\Users\adico\Desktop\deepseek-ai-coder>             
+
+and other cmd
+
+Microsoft Windows [Version 10.0.19045.6216]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Windows\system32>cd /d C:\Users\adico\Desktop\deepseek-ai-coder
+
+C:\Users\adico\Desktop\deepseek-ai-coder>dir
+ Volume in drive C is OS
+ Volume Serial Number is 56AE-420B
+
+ Directory of C:\Users\adico\Desktop\deepseek-ai-coder
+
+31/08/2025  19:48    <DIR>          .
+31/08/2025  19:48    <DIR>          ..
+31/08/2025  12:09                35 .gitignore
+31/08/2025  19:19                99 ai_commands.json
+31/08/2025  13:10    <DIR>          auth
+31/08/2025  19:17             1,895 chat_command_agent.py
+31/08/2025  19:15             2,964 chat_reader_agent.py
+31/08/2025  19:07               608 command_listener.py
+31/08/2025  19:48             2,644 comprehensive_agent.py
+31/08/2025  13:09             4,390 desktop_agent.py
+31/08/2025  19:06             4,737 gemini_agent.py
+31/08/2025  19:46             1,870 learning_module.py
+31/08/2025  19:22               522 simple_command_runner.py
+31/08/2025  19:47             1,706 task_recognition.py
+31/08/2025  16:43               439 test_key.py
+31/08/2025  16:41               324 test_models.py
+31/08/2025  13:09    <DIR>          tools
+31/08/2025  12:02    <DIR>          venv
+              13 File(s)         22,233 bytes
+               5 Dir(s)  337,854,115,840 bytes free
+
+C:\Users\adico\Desktop\deepseek-ai-coder>mkdir tools
+A subdirectory or file tools already exists.
+
+C:\Users\adico\Desktop\deepseek-ai-coder>notepad tools\__init__.py
+
+C:\Users\adico\Desktop\deepseek-ai-coder>notepad tools\__init__.py
+
+C:\Users\adico\Desktop\deepseek-ai-coder>dir tools
+ Volume in drive C is OS
+ Volume Serial Number is 56AE-420B
+
+ Directory of C:\Users\adico\Desktop\deepseek-ai-coder\tools
+
+01/09/2025  15:50    <DIR>          .
+01/09/2025  15:50    <DIR>          ..
+31/08/2025  13:03             1,074 app_tool.py
+31/08/2025  17:14             1,187 file_tool.py
+31/08/2025  12:58               924 path_tool.py
+31/08/2025  12:56                 0 path_tool.pynotepad
+01/09/2025  15:51               182 __init__.py
+31/08/2025  17:14    <DIR>          __pycache__
+               5 File(s)          3,367 bytes
+               3 Dir(s)  337,849,720,832 bytes free
+
+C:\Users\adico\Desktop\deepseek-ai-coder>notepad tools\file_tool.py
+
+C:\Users\adico\Desktop\deepseek-ai-coder>notepad tools\file_tool.py
+
+C:\Users\adico\Desktop\deepseek-ai-coder>python -c "from tools.file_tool import create_file; print('Import successful!')"
+Import successful!
+
+C:\Users\adico\Desktop\deepseek-ai-coder>python -c "import sys; print(sys.path); import os; print('Current dir:', os.getcwd())"
+['', 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\python311.zip', 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\DLLs', 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib', 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0', 'C:\\Users\\adico\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages', 'C:\\Users\\adico\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\win32', 'C:\\Users\\adico\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\win32\\lib', 'C:\\Users\\adico\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\Pythonwin', 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\site-packages']
+Current dir: C:\Users\adico\Desktop\deepseek-ai-coder
+
+C:\Users\adico\Desktop\deepseek-ai-coder>notepad enhanced_agent.py
+
+C:\Users\adico\Desktop\deepseek-ai-coder># enhanced_agent.pyimport osimport reimport sysimport jsonimport google.generativeai as genaifrom dotenv import load_dotenvfrom datetime import datetimefrom tools.path_tool import interpret_pathfrom tools.file_tool import create_file, modify_filefrom tools.app_tool import open_application# Load environmentenv_path = os.path.join(os.path.dirname(__file__), 'auth', '.env')load_dotenv(dotenv_path=env_path)GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")if not GEMINI_API_KEY:    print("ERROR: GEMINI_API_KEY not found in auth/.env")    print("Please make sure your API key is set correctly.")    exit(1)genai.configure(api_key=GEMINI_API_KEY)class EnhancedAIAgent:    def __init__(self):        self.memory_file = "agent_memory.json"        self.load_memory()            def load_memory(self):        if os.path.exists(self.memory_file):            try:                with open(self.memory_file, 'r') as f:                    self.memory = json.load(f)                print(f"�� Loaded memory with {len(self.memory['conversation_history'])} past commands")            except:                self.initialize_memory()        else:            self.initialize_memory()        def initialize_memory(self):        self.memory = {            "conversation_history": [],            "created_files": [],            "preferences": {},            "system_state": {                "last_activity": datetime.now().isoformat(),                "active": True            }        }        self.save_memory()        def save_memory(self):        with open(self.memory_file, 'w') as f:            json.dump(self.memory, f, indent=2)        def ask_gemini(self, user_prompt):        """Enhanced Gemini query with memory context"""        try:            # Add context from memory            context = "You are an AI assistant that helps with file operations and application control.\n"            if self.memory['conversation_history']:                context += "Recent activities:\n"                for activity in self.memory['conversation_history'][-3:]:                    context += f"- {activity['command']} -> {activity['result']}\n"                        full_prompt = f"""            {context}                        USER COMMAND: {user_prompt}                        Respond in EXACT format:            [INTENT: CREATE_FILE|OPEN_APP|SYSTEM_COMMAND|CHAT]            [PATH: location_if_applicable]            [FILENAME: name_if_applicable]            [APP: app_name_if_applicable]            ```content            content_here_if_applicable            ```            """                        # Use a available model            available_models = []            for m in genai.list_models():                if 'generateContent' in m.supported_generation_methods:                    available_models.append(m.name)                        if available_models:                model = genai.GenerativeModel(available_models[0])                response = model.generate_content(full_prompt)                return response.text            else:                return "ERROR: No available models with generateContent capability"                    except Exception as e:            return f"Error: {str(e)}"        def parse_response(self, ai_response):        """Parse AI response with better error handling"""        result = {"intent": "unknown"}                # Extract intent        intent_match = re.search(r'\[INTENT: (.*?)\]', ai_response)        if intent_match:            result["intent"] = intent_match.group(1).strip()                # Extract other components based on intent        if result["intent"] == "CREATE_FILE":            path_match = re.search(r'\[PATH: (.*?)\]', ai_response)            filename_match = re.search(r'\[FILENAME: (.*?)\]', ai_response)            content_match = re.search(r'```(?:content)?\s*(.*?)\s*```', ai_response, re.DOTALL)                        if filename_match:                result["filename"] = filename_match.group(1).strip()                result["path"] = path_match.group(1).strip() if path_match else "desktop"                result["content"] = content_match.group(1).strip() if content_match else ""                elif result["intent"] == "OPEN_APP":            app_match = re.search(r'\[APP: (.*?)\]', ai_response)            if app_match:                result["app"] = app_match.group(1).strip()                return result        def execute_command(self, command_dict, user_command):        """Execute the parsed command"""        if command_dict["intent"] == "CREATE_FILE":            full_path = interpret_path(command_dict["path"], command_dict["filename"])            success = create_file(full_path, command_dict["content"])                        # Record this action            result_msg = f"Created {command_dict['filename']} at {full_path}" if success else "Failed to create file"            self.memory["conversation_history"].append({                "timestamp": datetime.now().isoformat(),                "command": user_command,                "result": result_msg            })            if success:                self.memory["created_files"].append(str(full_path))            self.save_memory()                        return f"SUCCESS: {result_msg}"                elif command_dict["intent"] == "OPEN_APP":            success = open_application(command_dict["app"])                        result_msg = f"Opened {command_dict['app']}" if success else f"Failed to open {command_dict['app']}"            self.memory["conversation_history"].append({                "timestamp": datetime.now().isoformat(),                "command": user_command,                "result": result_msg            })            self.save_memory()                        return f"SUCCESS: {result_msg}" if success else f"FAILED: {result_msg}"                else:            return "UNKNOWN: Could not understand the command"        def get_status(self):        """Get current agent status"""        return {            "active_files": len(self.memory["created_files"]),            "total_commands": len(self.memory["conversation_history"]),            "last_activity": self.memory["conversation_history"][-1]["timestamp"] if self.memory["conversation_history"] else "None",            "system_status": "OPERATIONAL"        }def main():    agent = EnhancedAIAgent()        print("�� ENHANCED AI AGENT ACTIVATED!")    print("�� I'm now smarter and can remember our interactions")    print("�� Try: 'create a python script' or 'open notepad' or 'status'")    print("�� I can now accept commands as arguments too!")    print("=" * 50)        # Handle command line arguments    if len(sys.argv) > 1:        user_command = " ".join(sys.argv[1:])        print(f"Executing: {user_command}")    else:        user_command = input("\nYour command: ")        # Process command    print("\n�� Thinking...")    ai_response = agent.ask_gemini(user_command)        print("�� Parsing response...")    command_dict = agent.parse_response(ai_response)        result = agent.execute_command(command_dict, user_command)    print(f"\n✅ Result: {result}")        # Show status    status = agent.get_status()    print(f"\n�� Status: {status['total_commands']} commands executed, {status['active_files']} files created")if __name__ == "__main__":    main()
+The system cannot find the path specified.
+
+C:\Users\adico\Desktop\deepseek-ai-coder>notepad enhanced_agent.py
+
+C:\Users\adico\Desktop\deepseek-ai-coder>notepad enhanced_agent.py
+
+C:\Users\adico\Desktop\deepseek-ai-coder>python enhanced_agent.py "Create a Python script that says hello world"
+🤖 ENHANCED AI AGENT ACTIVATED!
+📍 I'm now smarter and can remember our interactions
+💡 Try: 'create a python script' or 'open notepad' or 'status'
+🔧 I can now accept commands as arguments too!
+==================================================
+Executing: Create a Python script that says hello world
+
+🧠 Thinking...
+🔍 Parsing response...
+
+✅ Result: UNKNOWN: Could not understand the command
+
+📊 Status: 0 commands executed, 0 files created
+
+C:\Users\adico\Desktop\deepseek-ai-coder>notepad continuous_agent.py
+
+C:\Users\adico\Desktop\deepseek-ai-coder>notepad continuous_agent.py
+
+C:\Users\adico\Desktop\deepseek-ai-coder>python continuous_agent.py
+📂 Loaded memory with 0 past commands
+🔄 CONTINUOUS MODE ACTIVATED!
+I'm now listening for commands...
+Type 'exit' to quit, 'status' for report
+
+
+🎤 Your command: python -c "import google.generativeai as genai; from dotenv import load_dotenv; import os; load_dotenv(dotenv_path='auth/.env'); genai.configure(api_key=os.getenv('GEMINI_API_KEY')); print('Available models:'); [print(m.name) for m in genai.list_models() if 'generateContent' in m.supported_generation_methods]"
+🧠 Thinking...
+✅ UNKNOWN: Could not understand the command
+
+🎤 Your command: type auth\.env
+🧠 Thinking...
+✅ UNKNOWN: Could not understand the command
+
+🎤 Your command: notepad enhanced_agent_v2.py
+🧠 Thinking...
+✅ UNKNOWN: Could not understand the command
+
+🎤 Your command:  
+
+the keys GEMINI_API_KEY=AIzaSyBJBEWswhbUkTvapcUgaKshbPImitLya-E
+GITHUB_TOKEN=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
+GITHUB_REPO_NAME=cctvwebsites/deepseek

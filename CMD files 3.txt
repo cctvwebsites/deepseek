@@ -1,0 +1,68 @@
+Microsoft Windows [Version 10.0.19045.6216]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Windows\system32>cd C:\Users\adico\Desktop\deepseek-ai-coder
+
+C:\Users\adico\Desktop\deepseek-ai-coder>echo {"commands": ["Create a test file from JSON system.txt with content This is working via JSON!"]} > ai_commands.json
+
+C:\Users\adico\Desktop\deepseek-ai-coder>notepad simple_command_runner.py
+
+C:\Users\adico\Desktop\deepseek-ai-coder>notepad simple_command_runner.py
+
+C:\Users\adico\Desktop\deepseek-ai-coder>python simple_command_runner.py
+🚀 Simple Command Runner
+Paste commands from the AI below:
+Type 'exit' to quit
+
+Paste AI command here: Create a file from simple runner.txt with content This is the simplest method!
+🎯 Executing: Create a file from simple runner.txt with content This is the simplest method!
+🤖 Executing command from AI: Create a file from simple runner.txt with content This is the simplest method!
+
+🧠 Thinking... (Asking Gemini for a plan)
+🔍 Decoding the AI's plan...
+
+----- AI's Structured Response -----
+[INTENT: CREATE_FILE]
+[PATH: .]
+[FILENAME: simple runner.txt]
+```file_content
+This is the simplest method!
+```
+
+------------------------------------
+No specific location mentioned. Using the Desktop as default.
+📄 Command: Creating a file at C:\Users\adico\Desktop\simple runner.txt...
+SUCCESS: File created at C:\Users\adico\Desktop\simple runner.txt
+✅ Task completed successfully!
+
+Paste AI command here: Create a Python script called calculator.py that can add two numbers
+🎯 Executing: Create a Python script called calculator.py that can add two numbers
+🤖 Executing command from AI: Create a Python script called calculator.py that can add two numbers
+
+🧠 Thinking... (Asking Gemini for a plan)
+🔍 Decoding the AI's plan...
+
+----- AI's Structured Response -----
+[INTENT: CREATE_FILE]
+[PATH: .]
+[FILENAME: calculator.py]
+```python
+def add_numbers(x, y):
+  """This function adds two numbers"""
+  return x + y
+
+num1 = float(input("Enter first number: "))
+num2 = float(input("Enter second number: "))
+
+sum = add_numbers(num1, num2)
+
+print('The sum of {0} and {1} is {2}'.format(num1, num2, sum))
+```
+
+------------------------------------
+No specific location mentioned. Using the Desktop as default.
+📄 Command: Creating a file at C:\Users\adico\Desktop\calculator.py...
+SUCCESS: File created at C:\Users\adico\Desktop\calculator.py
+✅ Task completed successfully!
+
+Paste AI command here:
