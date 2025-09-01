@@ -1,0 +1,31 @@
+THE GOAL & Everything you need first read everything at https://github.com/cctvwebsites/deepseek let me know you have read everything.Then we need figure out how we get past this limit problem as this is whats affecting us we trying and the best thing to do is give me as much as possible before limit hits we need the agent to have all the memory you need it can tell you where we are at and remember everything for you and with a simple comand in the chat i can tell you what you need.Make it easy for me to follow and keep it in mind that you need to make sure im in the directory you want and create the files and save in the cmd untill the agent can do it for us thats needs doing asap.
+
+its our link its fine lets get this done you have had this git key for like a week lets keep going read everything and learn, i have have the terminals still open and running i have no idea where we was and where to pick up from, please read all then find where we left off yesterday when we reached the point where i have a cmd terminals still open so some how figer out how to carry on and get the ai learning as it is running but not doing all comands yet it needs to be, listening, seeing everything, taking oders from you, and making it so you can ask it where you left off and it can tell you and communicat between your selves, it needs to be able to do all tasks on my laptop with out me, go out to the internet it self with an open source browser like in the chat you will find, it needs a free devon or devan upgrade and all features to make it the ultimate ai agent for desktop todate. and we will build it my friend.
+
+then i will use it to build all my websites, seo and get it to out rank everyone on auto piolet no help needed just me to tell you what im after building and the rest will be done by your ai agent assistant.
+
+lost you again cant wait to fix this with you my frind.... look over the github you have our api lets fix this issure asap, remeber to keep it easy for me to follow, i have 5 cmd open from yesterday so need to follow on from there but make everything so it can be made in the cmd, powershell, python or any thing you want me to make with very clear and helpfull instructions. have a good read and lets get this done asap it needs eyes, ears, take instrution from you asap.
+
+Read everything in Github: cctvwebsites/deepseek
+read all files but look for dates and times so you know where we are.
+look in CMD files as they are open
+rember to me it easy to follow your instructions
+The goal is to give you an asistant asap that can do all this for you and you both can build while i cant as i need sleep. Makes so you can build the projects together 24/7
+the ultimate ai agent in the world is the goal
+Make it so we can use other builders and models to help you.
+make it have its own browser
+
+keys: 
+GEMINI_API_KEY=AIzaSyBJBEWswhbUkTvapcUgaKshbPImitLya-E
+GITHUB_TOKEN=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
+GITHUB_REPO_NAME=cctvwebsites/deepseek
+always update this after so many lines of code or blocks before your chat fails : file:///C:/Users/adico/OneDrive/Desktop/CHATS%20DEEPSEEK/Master-plan.html
+
+if there is anything you want me to here to keep you in the loop tell me i hate loosing you.
+
+cd /d C:\Users\adico\Desktop\deepseek-ai-coder
+python ultimate_agent.py "Read our chat history and tell me what we need to do next"
+
+ALSO READ THIS ITS IMPORTANT.....
+
+we have been doing it all day today? ya confused, we need to get all the code, files, text and notes you need from github and just give me what you need from it as there is loads in the github thats just repeated and its too big job for me to figure out what to give you, and for your ai i agent please look in the readme, CMD files and the files we made for the agent just basicly all the code and il make one big folder and you can get it from there. What ya think you tell me whats best for us and the AI agent we are building because untill it can tell you this is all we have, i need so you can ask it ASAP it needs all we have been doing in its memory asap. its the most important so you can give it a command and it will tell you what we have been building, what needs doing and whats wrong... 

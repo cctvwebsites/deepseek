@@ -1,0 +1,40 @@
+Microsoft Windows [Version 10.0.19045.6216]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\adico>cd /d C:\Users\adico\Desktop
+
+C:\Users\adico\Desktop>dir
+ Volume in drive C is OS
+ Volume Serial Number is 56AE-420B
+
+ Directory of C:\Users\adico\Desktop
+
+01/09/2025  17:31    <DIR>          .
+01/09/2025  17:31    <DIR>          ..
+31/08/2025  19:25               278 calculator.py
+31/08/2025  19:06                 8 command line.txt
+01/09/2025  17:31    <DIR>          configmkdir
+01/09/2025  17:31    <DIR>          datamkdir
+01/09/2025  17:31    <DIR>          deepseek-ai-agentcd
+01/09/2025  17:31    <DIR>          deepseek-ai-agentmkdir
+01/09/2025  18:08    <DIR>          deepseek-ai-coder
+01/09/2025  17:31    <DIR>          docs
+01/09/2025  17:31    <DIR>          modulesmkdir
+30/08/2025  08:56    <DIR>          PWA_Test
+01/09/2025  17:31    <DIR>          scriptsmkdir
+31/08/2025  19:23                28 simple runner.txt
+31/08/2025  19:47               801 simple_calculator.py
+01/09/2025  17:31    <DIR>          srcmkdir
+31/08/2025  19:11                88 start_agent.bat
+31/08/2025  19:19                25 system.txt
+31/08/2025  16:58                31 test.txt
+               7 File(s)          1,259 bytes
+              12 Dir(s)  337,781,731,328 bytes free
+
+C:\Users\adico\Desktop>cd deepseek-ai-coderdir
+The system cannot find the path specified.
+
+C:\Users\adico\Desktop>cd deepseek-ai-coderdir
+The system cannot find the path specified.
+
+C:\Users\adico\Desktop>

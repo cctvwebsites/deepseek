@@ -1,0 +1,7 @@
+cd /d C:\Users\adico\OneDrive\Desktop\deepseek-ai-coder
+mkdir config
+echo { > config/settings.json
+echo     "GEMINI_API_KEY": "AIzaSyBJBEWswhbUkTvapcUgaKshbPImitLya-E", >> config/settings.json
+echo     "GITHUB_TOKEN": "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", >> config/settings.json
+echo     "GITHUB_REPO_NAME": "cctvwebsites/deepseek" >> config/settings.json
+echo } >> config/settings.json

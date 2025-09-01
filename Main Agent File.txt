@@ -1,0 +1,34 @@
+import os
+import json
+from pathlib import Path
+
+class UltimateAgent:
+    def __init__(self):
+        self.config = self.load_config()
+        print("🤖 Ultimate AI Agent Initialized!")
+        print(f"📁 Working directory: {os.getcwd()}")
+    
+    def load_config(self):
+        config_path = "config/settings.json"
+        try:
+            with open(config_path, 'r') as f:
+                return json.load(f)
+        except FileNotFoundError:
+            print("❌ Config file not found. Please create config/settings.json")
+            return {}
+    
+    def run(self):
+        print("🚀 Agent is running. Type 'exit' to quit.")
+        while True:
+            command = input("\n🎤 Your command: ").strip()
+            if command.lower() == 'exit':
+                break
+            self.execute_command(command)
+    
+    def execute_command(self, command):
+        print(f"🤖 Executing: {command}")
+        # Command handling logic will go here
+
+if __name__ == "__main__":
+    agent = UltimateAgent()
+    agent.run()

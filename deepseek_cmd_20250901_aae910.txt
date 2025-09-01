@@ -1,0 +1,38 @@
+echo import json > memory_manager.py
+echo from datetime import datetime >> memory_manager.py
+echo from pathlib import Path >> memory_manager.py
+echo. >> memory_manager.py
+echo class MemoryManager: >> memory_manager.py
+echo     def __init__(self): >> memory_manager.py
+echo         self.memory_file = "agent_memory.json" >> memory_manager.py
+echo         self.memory = self.load_memory() >> memory_manager.py
+echo. >> memory_manager.py
+echo     def load_memory(self): >> memory_manager.py
+echo         try: >> memory_manager.py
+echo             with open(self.memory_file, 'r') as f: >> memory_manager.py
+echo                 return json.load(f) >> memory_manager.py
+echo         except FileNotFoundError: >> memory_manager.py
+echo             return { >> memory_manager.py
+echo                 "session_history": [], >> memory_manager.py
+echo                 "project_status": {}, >> memory_manager.py
+echo                 "last_commands": [], >> memory_manager.py
+echo                 "browser_sessions": [] >> memory_manager.py
+echo             } >> memory_manager.py
+echo. >> memory_manager.py
+echo     def save_memory(self): >> memory_manager.py
+echo         with open(self.memory_file, 'w') as f: >> memory_manager.py
+echo             json.dump(self.memory, f, indent=2) >> memory_manager.py
+echo. >> memory_manager.py
+echo     def add_command(self, command, result): >> memory_manager.py
+echo         entry = { >> memory_manager.py
+echo             "timestamp": datetime.now().isoformat(), >> memory_manager.py
+echo             "command": command, >> memory_manager.py
+echo             "result": result >> memory_manager.py
+echo         } >> memory_manager.py
+echo         self.memory["last_commands"].append(entry) >> memory_manager.py
+echo         # Keep only last 50 commands >> memory_manager.py
+echo         self.memory["last_commands"] = self.memory["last_commands"][-50:] >> memory_manager.py
+echo         self.save_memory() >> memory_manager.py
+echo. >> memory_manager.py
+echo     def get_recent_activity(self): >> memory_manager.py
+echo         return self.memory["last_commands"][-10:]  # Last 10 commands >> memory_manager.py

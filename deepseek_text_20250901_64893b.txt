@@ -1,0 +1,7 @@
+deepseek-ai-agent/
+├── src/          # Main source code
+├── config/       # Configuration files
+├── modules/      # Individual modules
+├── data/         # Data and memory files
+├── scripts/      # Batch files and scripts
+└── docs/         # Documentation

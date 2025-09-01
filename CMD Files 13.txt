@@ -1,0 +1,373 @@
+Microsoft Windows [Version 10.0.19045.6216]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Windows\system32>cd /d C:\Users\adico\OneDrive\Desktop\deepseek-ai-codermkdir config
+The system cannot find the path specified.
+
+C:\Windows\system32>cdcd /d C:\Users\adico\OneDrive\Desktop\deepseek-ai-codermkdir config
+'cdcd' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Windows\system32>cd /d C:\Users\adico\OneDrive\Desktop\deepseek-ai-codermkdir config
+The system cannot find the path specified.
+
+C:\Windows\system32>cd C:\Users\adico\OneDrive\Desktop\deepseek-ai-codermkdir
+The system cannot find the path specified.
+
+C:\Windows\system32>dir C:\Users\adico\Desktop && echo. && dir C:\Users\adico\OneDrive\Desktop
+ Volume in drive C is OS
+ Volume Serial Number is 56AE-420B
+
+ Directory of C:\Users\adico\Desktop
+
+01/09/2025  17:31    <DIR>          .
+01/09/2025  17:31    <DIR>          ..
+31/08/2025  19:25               278 calculator.py
+31/08/2025  19:06                 8 command line.txt
+01/09/2025  17:31    <DIR>          configmkdir
+01/09/2025  17:31    <DIR>          datamkdir
+01/09/2025  17:31    <DIR>          deepseek-ai-agentcd
+01/09/2025  17:31    <DIR>          deepseek-ai-agentmkdir
+01/09/2025  18:49    <DIR>          deepseek-ai-coder
+01/09/2025  17:31    <DIR>          docs
+01/09/2025  17:31    <DIR>          modulesmkdir
+30/08/2025  08:56    <DIR>          PWA_Test
+01/09/2025  17:31    <DIR>          scriptsmkdir
+31/08/2025  19:23                28 simple runner.txt
+31/08/2025  19:47               801 simple_calculator.py
+01/09/2025  17:31    <DIR>          srcmkdir
+31/08/2025  19:11                88 start_agent.bat
+31/08/2025  19:19                25 system.txt
+31/08/2025  16:58                31 test.txt
+               7 File(s)          1,259 bytes
+              12 Dir(s)  337,794,490,368 bytes free
+
+ Volume in drive C is OS
+ Volume Serial Number is 56AE-420B
+
+ Directory of C:\Users\adico\OneDrive\Desktop
+
+01/09/2025  18:20    <DIR>          .
+01/09/2025  18:20    <DIR>          ..
+30/08/2025  13:13             3,335 11.txt
+30/08/2025  21:15    <DIR>          Agent-Project
+29/08/2025  21:35               281 agent.vbs
+29/08/2025  21:35               281 agent.vbs.txt
+24/08/2025  10:04    <DIR>          AI Agents
+30/08/2025  17:19                70 API Keys.txt
+31/08/2025  16:23               149 apikeys.txt
+31/08/2025  16:12             9,379 autonomous_agent.py
+30/08/2025  13:33                36 bridge.log
+30/08/2025  13:33             3,436 bridge.py
+24/08/2025  10:06    <DIR>          Browsers
+24/08/2025  10:02    <DIR>          CCTV Tools
+31/08/2025  10:36    <DIR>          CHAT.Z.ai
+01/09/2025  19:30    <DIR>          CHATS DEEPSEEK
+27/08/2025  10:20    <DIR>          COPIOLET MICROSOFT
+31/08/2025  20:17    <DIR>          Copy of deepseek project
+24/08/2025  10:05    <DIR>          Crypto Related
+31/08/2025  19:31           744,186 Deepseek Chat 31-08-2025-19.31.txt
+01/09/2025  19:25    <DIR>          deepseek-ai-coder
+24/08/2025  09:50    <DIR>          Docs
+29/08/2025  22:32             1,685 find_jupyter_path.py
+29/08/2025  22:25               600 find_package_paths.py
+24/08/2025  10:03    <DIR>          Gaming
+30/08/2025  16:56    <DIR>          GEMINI AI Agent
+26/08/2025  12:58             2,608 gemini-theme-builder.7z
+31/08/2025  16:19             4,517 gemini_agent.py
+31/08/2025  22:03               114 GIST.url
+30/08/2025  08:19             3,327 Google Gemini (Gaz (Person 1)).lnk
+30/08/2025  18:37             5,576 gui.html
+30/08/2025  08:46    <DIR>          New python bot
+30/08/2025  13:09                 0 New Text Document (2).txt
+31/08/2025  12:46                 0 New Text Document (3).txt
+30/08/2025  08:23             6,231 New Text Document.txt
+30/08/2025  15:31             9,340 new.py
+01/09/2025  18:18    <DIR>          ONE DRIVE
+29/08/2025  20:56               822 open-interpreter.txt
+30/08/2025  08:32             6,390 pwa_test.html
+30/08/2025  08:32             6,390 pwa_test.html.txt
+30/08/2025  09:08    <DIR>          PW_Test
+30/08/2025  08:23             6,231 python_sandbox.html
+24/08/2025  10:14             1,252 Roblox Studio.lnk
+24/08/2025  10:02    <DIR>          SEO
+24/08/2025  10:07    <DIR>          Server Tools
+29/08/2025  21:50               482 start-bridge-fix.cmd
+29/08/2025  21:04               210 start-bridge.cmd
+29/08/2025  21:03             1,060 start-bridge.cmd - Copy.txt
+29/08/2025  21:03             1,060 start-bridge.cmd.txt
+01/09/2025  18:20             1,187 tools.txt
+25/07/2025  20:29    <DIR>          tvaerial-installation-services-package
+27/08/2025  19:54             1,408 Visual Studio Code.lnk
+24/08/2025  10:07    <DIR>          Website Building
+30/08/2025  23:10                 0 workflow_assistant.html.txt
+              32 File(s)        821,643 bytes
+              22 Dir(s)  337,794,490,368 bytes free
+
+C:\Windows\system32>cd /d C:\Users\adico\OneDrive\Desktop\deepseek-ai-coder
+
+C:\Users\adico\OneDrive\Desktop\deepseek-ai-coder>dir
+ Volume in drive C is OS
+ Volume Serial Number is 56AE-420B
+
+ Directory of C:\Users\adico\OneDrive\Desktop\deepseek-ai-coder
+
+01/09/2025  19:25    <DIR>          .
+01/09/2025  19:25    <DIR>          ..
+31/08/2025  16:24               149 .env
+01/09/2025  19:12            10,733 agent_memory.json
+31/08/2025  12:52               293 api.env
+01/09/2025  19:15    <DIR>          config
+31/08/2025  16:08                39 gemini-api-key.txt
+01/09/2025  19:22             1,331 memory_manager.py
+31/08/2025  11:59               195 run_agent.bat
+31/08/2025  11:56             1,684 setup_agent.bat
+01/09/2025  19:25             1,953 ultimate_agent.py
+01/09/2025  19:25    <DIR>          __pycache__
+               8 File(s)         16,377 bytes
+               4 Dir(s)  337,793,630,208 bytes free
+
+C:\Users\adico\OneDrive\Desktop\deepseek-ai-coder>xcopy /E /I "C:\Users\adico\OneDrive\Desktop\deepseek-ai-coder" "C:\Users\adico\Desktop\deepseek-ai-coder"cd /d C:\Users\adico\Desktop\deepseek-ai-coder
+Invalid number of parameters
+0 File(s) copied
+
+C:\Users\adico\OneDrive\Desktop\deepseek-ai-coder>echo %CD%
+C:\Users\adico\OneDrive\Desktop\deepseek-ai-coder
+
+C:\Users\adico\OneDrive\Desktop\deepseek-ai-coder>cd /d C:\Users\adico\OneDrive\Desktop\deepseek-ai-coder
+
+C:\Users\adico\OneDrive\Desktop\deepseek-ai-coder>echo import os > github_integration.py
+
+C:\Users\adico\OneDrive\Desktop\deepseek-ai-coder>echo import json >> github_integration.py
+
+C:\Users\adico\OneDrive\Desktop\deepseek-ai-coder>echo import requests >> github_integration.py
+
+C:\Users\adico\OneDrive\Desktop\deepseek-ai-coder>echo from pathlib import Path >> github_integration.py
+
+C:\Users\adico\OneDrive\Desktop\deepseek-ai-coder>echo. >> github_integration.py
+
+C:\Users\adico\OneDrive\Desktop\deepseek-ai-coder>echo class GitHubManager: >> github_integration.py
+
+C:\Users\adico\OneDrive\Desktop\deepseek-ai-coder>echo     def __init__(self, token, repo_owner, repo_name): >> github_integration.py
+
+C:\Users\adico\OneDrive\Desktop\deepseek-ai-coder>echo         self.token = token >> github_integration.py
+
+C:\Users\adico\OneDrive\Desktop\deepseek-ai-coder>echo         self.repo_owner = repo_owner >> github_integration.py
+
+C:\Users\adico\OneDrive\Desktop\deepseek-ai-coder>echo         self.repo_name = repo_name >> github_integration.py
+
+C:\Users\adico\OneDrive\Desktop\deepseek-ai-coder>echo         self.base_url = f"https://api.github.com/repos/{repo_owner}/{repo_name}" >> github_integration.py
+
+C:\Users\adico\OneDrive\Desktop\deepseek-ai-coder>echo         self.headers = { >> github_integration.py
+
+C:\Users\adico\OneDrive\Desktop\deepseek-ai-coder>echo             "Authorization": f"token {token}", >> github_integration.py
+
+C:\Users\adico\OneDrive\Desktop\deepseek-ai-coder>echo             "Accept": "application/vnd.github.v3+json" >> github_integration.py
+
+C:\Users\adico\OneDrive\Desktop\deepseek-ai-coder>echo         } >> github_integration.py
+
+C:\Users\adico\OneDrive\Desktop\deepseek-ai-coder>echo. >> github_integration.py
+
+C:\Users\adico\OneDrive\Desktop\deepseek-ai-coder>echo     def get_file(self, file_path): >> github_integration.py
+
+C:\Users\adico\OneDrive\Desktop\deepseek-ai-coder>echo         """Get a file from GitHub""" >> github_integration.py
+
+C:\Users\adico\OneDrive\Desktop\deepseek-ai-coder>echo         url = f"{self.base_url}/contents/{file_path}" >> github_integration.py
+
+C:\Users\adico\OneDrive\Desktop\deepseek-ai-coder>echo         response = requests.get(url, headers=self.headers) >> github_integration.py
+
+C:\Users\adico\OneDrive\Desktop\deepseek-ai-coder>echo         if response.status_code == 200: >> github_integration.py
+
+C:\Users\adico\OneDrive\Desktop\deepseek-ai-coder>echo             return response.json() >> github_integration.py
+
+C:\Users\adico\OneDrive\Desktop\deepseek-ai-coder>echo         return None >> github_integration.py
+
+C:\Users\adico\OneDrive\Desktop\deepseek-ai-coder>echo. >> github_integration.py
+
+C:\Users\adico\OneDrive\Desktop\deepseek-ai-coder>echo     def update_file(self, file_path, content, message): >> github_integration.py
+
+C:\Users\adico\OneDrive\Desktop\deepseek-ai-coder>echo         """Update a file on GitHub""" >> github_integration.py
+
+C:\Users\adico\OneDrive\Desktop\deepseek-ai-coder>echo         # First get the current file to get its SHA >> github_integration.py
+
+C:\Users\adico\OneDrive\Desktop\deepseek-ai-coder>echo         current_file = self.get_file(file_path) >> github_integration.py
+
+C:\Users\adico\OneDrive\Desktop\deepseek-ai-coder>echo         sha = current_file['sha'] if current_file else None >> github_integration.py
+
+C:\Users\adico\OneDrive\Desktop\deepseek-ai-coder>echo. >> github_integration.py
+
+C:\Users\adico\OneDrive\Desktop\deepseek-ai-coder>echo         url = f"{self.base_url}/contents/{file_path}" >> github_integration.py
+
+C:\Users\adico\OneDrive\Desktop\deepseek-ai-coder>echo         data = { >> github_integration.py
+
+C:\Users\adico\OneDrive\Desktop\deepseek-ai-coder>echo             "message": message, >> github_integration.py
+
+C:\Users\adico\OneDrive\Desktop\deepseek-ai-coder>echo             "content": content, >> github_integration.py
+
+C:\Users\adico\OneDrive\Desktop\deepseek-ai-coder>echo             "sha": sha >> github_integration.py
+
+C:\Users\adico\OneDrive\Desktop\deepseek-ai-coder>echo         } >> github_integration.py
+
+C:\Users\adico\OneDrive\Desktop\deepseek-ai-coder>echo         response = requests.put(url, headers=self.headers, json=data) >> github_integration.py
+
+C:\Users\adico\OneDrive\Desktop\deepseek-ai-coder>echo         return response.status_code == 200 >> github_integration.py
+
+C:\Users\adico\OneDrive\Desktop\deepseek-ai-coder>echo. >> github_integration.py
+
+C:\Users\adico\OneDrive\Desktop\deepseek-ai-coder>echo     def create_file(self, file_path, content, message): >> github_integration.py
+
+C:\Users\adico\OneDrive\Desktop\deepseek-ai-coder>echo         """Create a new file on GitHub""" >> github_integration.py
+
+C:\Users\adico\OneDrive\Desktop\deepseek-ai-coder>echo         url = f"{self.base_url}/contents/{file_path}" >> github_integration.py
+
+C:\Users\adico\OneDrive\Desktop\deepseek-ai-coder>echo         data = { >> github_integration.py
+
+C:\Users\adico\OneDrive\Desktop\deepseek-ai-coder>echo             "message": message, >> github_integration.py
+
+C:\Users\adico\OneDrive\Desktop\deepseek-ai-coder>echo             "content": content >> github_integration.py
+
+C:\Users\adico\OneDrive\Desktop\deepseek-ai-coder>echo         } >> github_integration.py
+
+C:\Users\adico\OneDrive\Desktop\deepseek-ai-coder>echo         response = requests.put(url, headers=self.headers, json=data) >> github_integration.py
+
+C:\Users\adico\OneDrive\Desktop\deepseek-ai-coder>echo         return response.status_code == 201 >> github_integration.py
+
+C:\Users\adico\OneDrive\Desktop\deepseek-ai-coder>echo import json > memory_manager.py
+
+C:\Users\adico\OneDrive\Desktop\deepseek-ai-coder>echo import base64 >> memory_manager.py
+
+C:\Users\adico\OneDrive\Desktop\deepseek-ai-coder>echo from datetime import datetime >> memory_manager.py
+
+C:\Users\adico\OneDrive\Desktop\deepseek-ai-coder>echo from github_integration import GitHubManager >> memory_manager.py
+
+C:\Users\adico\OneDrive\Desktop\deepseek-ai-coder>echo. >> memory_manager.py
+
+C:\Users\adico\OneDrive\Desktop\deepseek-ai-coder>echo class MemoryManager: >> memory_manager.py
+
+C:\Users\adico\OneDrive\Desktop\deepseek-ai-coder>echo     def __init__(self, github_manager=None): >> memory_manager.py
+
+C:\Users\adico\OneDrive\Desktop\deepseek-ai-coder>echo         self.memory_file = "agent_memory.json" >> memory_manager.py
+
+C:\Users\adico\OneDrive\Desktop\deepseek-ai-coder>echo         self.github_manager = github_manager >> memory_manager.py
+
+C:\Users\adico\OneDrive\Desktop\deepseek-ai-coder>echo         self.memory = self.load_memory() >> memory_manager.py
+
+C:\Users\adico\OneDrive\Desktop\deepseek-ai-coder>echo. >> memory_manager.py
+
+C:\Users\adico\OneDrive\Desktop\deepseek-ai-coder>echo     def load_memory(self): >> memory_manager.py
+
+C:\Users\adico\OneDrive\Desktop\deepseek-ai-coder>echo         # Try to load from GitHub first >> memory_manager.py
+
+C:\Users\adico\OneDrive\Desktop\deepseek-ai-coder>echo         if self.github_manager: >> memory_manager.py
+
+C:\Users\adico\OneDrive\Desktop\deepseek-ai-coder>echo             github_memory = self.github_manager.get_file(self.memory_file) >> memory_manager.py
+
+C:\Users\adico\OneDrive\Desktop\deepseek-ai-coder>echo             if github_memory: >> memory_manager.py
+
+C:\Users\adico\OneDrive\Desktop\deepseek-ai-coder>echo                 content = base64.b64decode(github_memory['content']).decode('utf-8') >> memory_manager.py
+
+C:\Users\adico\OneDrive\Desktop\deepseek-ai-coder>echo                 return json.loads(content) >> memory_manager.py
+
+C:\Users\adico\OneDrive\Desktop\deepseek-ai-coder>echo. >> memory_manager.py
+
+C:\Users\adico\OneDrive\Desktop\deepseek-ai-coder>echo         # Fall back to local file >> memory_manager.py
+
+C:\Users\adico\OneDrive\Desktop\deepseek-ai-coder>echo         try: >> memory_manager.py
+
+C:\Users\adico\OneDrive\Desktop\deepseek-ai-coder>echo             with open(self.memory_file, 'r') as f: >> memory_manager.py
+
+C:\Users\adico\OneDrive\Desktop\deepseek-ai-coder>echo                 return json.load(f) >> memory_manager.py
+
+C:\Users\adico\OneDrive\Desktop\deepseek-ai-coder>echo         except FileNotFoundError: >> memory_manager.py
+
+C:\Users\adico\OneDrive\Desktop\deepseek-ai-coder>echo             default_memory = { >> memory_manager.py
+
+C:\Users\adico\OneDrive\Desktop\deepseek-ai-coder>echo                 "session_history": [], >> memory_manager.py
+
+C:\Users\adico\OneDrive\Desktop\deepseek-ai-coder>echo                 "project_status": {}, >> memory_manager.py
+
+C:\Users\adico\OneDrive\Desktop\deepseek-ai-coder>echo                 "last_commands": [], >> memory_manager.py
+
+C:\Users\adico\OneDrive\Desktop\deepseek-ai-coder>echo                 "browser_sessions": [], >> memory_manager.py
+
+C:\Users\adico\OneDrive\Desktop\deepseek-ai-coder>echo                 "ai_knowledge_base": [] >> memory_manager.py
+
+C:\Users\adico\OneDrive\Desktop\deepseek-ai-coder>echo             } >> memory_manager.py
+
+C:\Users\adico\OneDrive\Desktop\deepseek-ai-coder>echo             self.save_memory(default_memory) >> memory_manager.py
+
+C:\Users\adico\OneDrive\Desktop\deepseek-ai-coder>echo             return default_memory >> memory_manager.py
+
+C:\Users\adico\OneDrive\Desktop\deepseek-ai-coder>echo. >> memory_manager.py
+
+C:\Users\adico\OneDrive\Desktop\deepseek-ai-coder>echo     def save_memory(self, memory_data=None): >> memory_manager.py
+
+C:\Users\adico\OneDrive\Desktop\deepseek-ai-coder>echo         if memory_data is None: >> memory_manager.py
+
+C:\Users\adico\OneDrive\Desktop\deepseek-ai-coder>echo             memory_data = self.memory >> memory_manager.py
+
+C:\Users\adico\OneDrive\Desktop\deepseek-ai-coder>echo. >> memory_manager.py
+
+C:\Users\adico\OneDrive\Desktop\deepseek-ai-coder>echo         # Save locally >> memory_manager.py
+
+C:\Users\adico\OneDrive\Desktop\deepseek-ai-coder>echo         with open(self.memory_file, 'w') as f: >> memory_manager.py
+
+C:\Users\adico\OneDrive\Desktop\deepseek-ai-coder>echo             json.dump(memory_data, f, indent=2) >> memory_manager.py
+
+C:\Users\adico\OneDrive\Desktop\deepseek-ai-coder>echo. >> memory_manager.py
+
+C:\Users\adico\OneDrive\Desktop\deepseek-ai-coder>echo         # Sync to GitHub if available >> memory_manager.py
+
+C:\Users\adico\OneDrive\Desktop\deepseek-ai-coder>echo         if self.github_manager: >> memory_manager.py
+
+C:\Users\adico\OneDrive\Desktop\deepseek-ai-coder>echo             content = json.dumps(memory_data, indent=2) >> memory_manager.py
+
+C:\Users\adico\OneDrive\Desktop\deepseek-ai-coder>echo             encoded_content = base64.b64encode(content.encode('utf-8')).decode('utf-8') >> memory_manager.py
+
+C:\Users\adico\OneDrive\Desktop\deepseek-ai-coder>echo. >> memory_manager.py
+
+C:\Users\adico\OneDrive\Desktop\deepseek-ai-coder>echo             # Check if file exists on GitHub >> memory_manager.py
+
+C:\Users\adico\OneDrive\Desktop\deepseek-ai-coder>echo             existing_file = self.github_manager.get_file(self.memory_file) >> memory_manager.py
+
+C:\Users\adico\OneDrive\Desktop\deepseek-ai-coder>echo             if existing_file: >> memory_manager.py
+
+C:\Users\adico\OneDrive\Desktop\deepseek-ai-coder>echo                 self.github_manager.update_file(self.memory_file, encoded_content, >> memory_manager.py
+
+C:\Users\adico\OneDrive\Desktop\deepseek-ai-coder>echo                                               "Auto-update: Agent memory sync") >> memory_manager.py
+
+C:\Users\adico\OneDrive\Desktop\deepseek-ai-coder>echo             else: >> memory_manager.py
+
+C:\Users\adico\OneDrive\Desktop\deepseek-ai-coder>echo                 self.github_manager.create_file(self.memory_file, encoded_content, >> memory_manager.py
+
+C:\Users\adico\OneDrive\Desktop\deepseek-ai-coder>echo                                               "Auto-create: Agent memory initialization") >> memory_manager.py
+
+C:\Users\adico\OneDrive\Desktop\deepseek-ai-coder>echo. >> memory_manager.py
+
+C:\Users\adico\OneDrive\Desktop\deepseek-ai-coder>echo     def add_ai_knowledge(self, knowledge_text): >> memory_manager.py
+
+C:\Users\adico\OneDrive\Desktop\deepseek-ai-coder>echo         """Add to the AI knowledge base for future sessions""" >> memory_manager.py
+
+C:\Users\adico\OneDrive\Desktop\deepseek-ai-coder>echo         entry = { >> memory_manager.py
+
+C:\Users\adico\OneDrive\Desktop\deepseek-ai-coder>echo             "timestamp": datetime.now().isoformat(), >> memory_manager.py
+
+C:\Users\adico\OneDrive\Desktop\deepseek-ai-coder>echo             "knowledge": knowledge_text >> memory_manager.py
+
+C:\Users\adico\OneDrive\Desktop\deepseek-ai-coder>echo         } >> memory_manager.py
+
+C:\Users\adico\OneDrive\Desktop\deepseek-ai-coder>echo         self.memory["ai_knowledge_base"].append(entry) >> memory_manager.py
+
+C:\Users\adico\OneDrive\Desktop\deepseek-ai-coder>echo         self.memory["ai_knowledge_base"] = self.memory["ai_knowledge_base"][-100:]  # Keep last 100 >> memory_manager.py
+
+C:\Users\adico\OneDrive\Desktop\deepseek-ai-coder>echo         self.save_memory() >> memory_manager.py
+
+C:\Users\adico\OneDrive\Desktop\deepseek-ai-coder>echo. >> memory_manager.py
+
+C:\Users\adico\OneDrive\Desktop\deepseek-ai-coder>echo     def get_recent_knowledge(self): >> memory_manager.py
+
+C:\Users\adico\OneDrive\Desktop\deepseek-ai-coder>echo         """Get recent knowledge for AI context""" >> memory_manager.py
+
+C:\Users\adico\OneDrive\Desktop\deepseek-ai-coder>echo         return self.memory["ai_knowledge_base"][-10:]  # Last 10 knowledge items >> memory_manager.py
+
+C:\Users\adico\OneDrive\Desktop\deepseek-ai-coder>
